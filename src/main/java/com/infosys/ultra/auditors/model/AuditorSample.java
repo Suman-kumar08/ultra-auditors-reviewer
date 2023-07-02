@@ -2,11 +2,14 @@ package com.infosys.ultra.auditors.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
-public class HomeModel {
-	private Long id;
+@NoArgsConstructor
+public class AuditorSample {
 	private String name;
+	private String email;
 	
+
 }

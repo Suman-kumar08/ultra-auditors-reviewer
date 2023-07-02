@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UltraAuditorsReviewerApplication {
+public class ClientApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UltraAuditorsReviewerApplication.class, args);
+		SpringApplication.run(ClientApplication.class, args);
 	}
 
 }
